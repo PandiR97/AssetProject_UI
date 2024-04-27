@@ -1,0 +1,15 @@
+body{
+    color: azure;
+}
+.assetform{
+    background-image: url(../Asset/wp4504778.webp);
+    align-items: center;
+
+}
+
+.assetform form{
+    margin-left: 12.5%;
+    width: 75%;
+    align-items: center;
+    color: azure;
+}

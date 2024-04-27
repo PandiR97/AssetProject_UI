@@ -1,0 +1,36 @@
+.homepage{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #c3e8eb, #afedd7, #daedaf );
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+   
+   
+    
+
+}
+
+.loginform{
+    box-shadow: 10px 10px #ffe6ff;
+    align-items: center;
+    
+    width: 30%;
+    height: 35vh;
+    padding: 20px;
+    border: #ccccff solid 2px;
+    margin-top: 10%;
+    
+    position: absolute;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -20%;
+}
+
+.formmain{
+    display: flex;
+    justify-content: space-evenly;
+}

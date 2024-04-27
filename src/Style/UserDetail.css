@@ -1,0 +1,105 @@
+body{
+overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #a5f2d8; 
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #b5e6cd;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.content-holder{
+    width: 100%;
+    margin-top: 20px;
+    left: 50;
+    position: absolute;
+}
+
+.content{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content a:hover{
+    border-top: 5px solid #e03467;
+}
+
+.content .main-content{
+    width: 400px;
+    border-radius: 10px;
+   
+}
+
+.content .main-content h4{
+    color: azure;
+    background-color: black;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headeradmin{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #a5f2d8;
+}
+
+.contentadmin{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.data {
+    max-width: 90%;
+    max-height: 400px; /* Set maximum height for the container */
+    overflow-x: auto; /* Add horizontal scrolling */
+    overflow-y: auto;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 20px; /* Add vertical scrolling */
+
+  }
+  
+  .data table {
+    width: 150%; /* Ensure the table takes up the full width of its container */
+    border-collapse: collapse; /* Collapse table borders */
+  }
+  
+  .data th,
+  .data td {
+    padding: 8px; /* Add padding to cells */
+    border: 1px solid black; /* Add border to cells */
+    text-align: center; 
+    font-size: 14px;
+  }
+
+  .data th{
+    background-color: #fad2a5;
+  }
+
+  .search{
+    width: 20%;
+    margin-right: 0px;
+    align-items: end;
+  }
+
+  
+  
+
+
+
+
+
